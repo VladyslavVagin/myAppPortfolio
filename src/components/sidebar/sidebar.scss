@@ -12,6 +12,7 @@
     left: 0;
     bottom: 0;
     width: 400px;
+    z-index: 2;
     background-color: white;
 
     .links {
@@ -40,5 +41,6 @@
     background-color: #fff;
     border: none;
     cursor: pointer;
+    z-index: 2;
   }
 }
