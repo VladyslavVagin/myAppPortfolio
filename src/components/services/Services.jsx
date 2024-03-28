@@ -32,80 +32,44 @@ const Services = () => {
       ref={ref}
       animate={"animate"}
     >
-      <motion.div className="textContainer" variants={variants}>
-        <p>
-          I focus on helping your brand grow <br /> and move forward
-        </p>
-        <hr />
-      </motion.div>
-      <motion.div className="titleContainer" variants={variants}>
-        <div className="title">
-          <img src="/people.webp" alt="people" />
-          <h1>
-            <motion.b whileHover={{color: "orange"}}>Unique</motion.b>Ideas
-          </h1>
-        </div>
-        <div className="title">
-          <h1>
-            <motion.b whileHover={{color: "orange"}}>For Your</motion.b>Business.
-          </h1>
-          <button>WHAT WE DO?</button>
-        </div>
-      </motion.div>
-      <motion.div className="listContainer" variants={variants}>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-            laborum laboriosam quod facilis fugit sint. Quae voluptatum ratione
-            alias, tenetur nam iure reprehenderit esse veritatis culpa
-            consequuntur aperiam vero, voluptates sequi? Veritatis?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-            laborum laboriosam quod facilis fugit sint. Quae voluptatum ratione
-            alias, tenetur nam iure reprehenderit esse veritatis culpa
-            consequuntur aperiam vero, voluptates sequi? Veritatis?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-            laborum laboriosam quod facilis fugit sint. Quae voluptatum ratione
-            alias, tenetur nam iure reprehenderit esse veritatis culpa
-            consequuntur aperiam vero, voluptates sequi? Veritatis?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-            laborum laboriosam quod facilis fugit sint. Quae voluptatum ratione
-            alias, tenetur nam iure reprehenderit esse veritatis culpa
-            consequuntur aperiam vero, voluptates sequi? Veritatis?
-          </p>
-          <button>Go</button>
-        </motion.div>
-      </motion.div>
+   <ul>
+    <li>
+      <img src="/stack/html5.png" alt="HTML5"/>
+      <p>HTML5</p>
+    </li>
+    <li>
+      <img src="/stack/social.png" alt="CSS3"/>
+      <p>CSS3</p>
+    </li>
+    <li>
+      <img src="/stack/js.png" alt="Javascript"/>
+      <p>JavaScript</p>
+    </li>
+    <li>
+      <img src="/stack/physics.png" alt="React"/>
+      <p>React.js</p>
+    </li>
+    <li>
+    <img src="/stack/redux.svg" alt="Redux"/>
+      <p>Redux</p>
+    </li>
+    <li>
+    <img src="/stack/nextjs.svg" alt="Next.js" style={{backgroundColor: "white", borderRadius: "50%"}}/>
+      <p>Next.js</p>
+    </li>
+    <li>
+    <img src="/stack/file-type-scss2.svg" alt="SCSS"/>
+      <p>SCSS</p>
+    </li>
+    <li>
+    <img src="/stack/node-js.svg" alt="Node.js"/>
+      <p>Node.js</p>
+    </li>
+    <li>
+    <img src="/stack/file-type-mongo.svg" alt="Mongo DB"/>
+      <p>Mongo DB</p>
+    </li>
+   </ul>
     </motion.div>
   );
 };
