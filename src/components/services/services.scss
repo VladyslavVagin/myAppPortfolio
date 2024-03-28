@@ -25,11 +25,11 @@
        width: 280px;
 
        @include desktop {
-        width: 280px;
+        width: 220px;
       }
 
         @include tablet {
-          width: 244px;
+          width: 200px;
         }
 
         @include mobile {

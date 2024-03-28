@@ -8,7 +8,7 @@ const items = [
     id: 1,
     title: "Drink Master",
     img: "/portfolio/DrinkMaster_Desktop.jpg",
-    desc: "Application for add and create Cocktails' or Drinks' Recipes. User should login first by confirming email. Then he can change name, avatar or dark/light theme (by default dark). On home page shows the latest drinks from each categories of drinks, on page Drinks user can find some drink or cocktail by using filters. On page Add drink user can create his own cocktail or drink, and look on 4 most popular drinks which all users added to Favorites. Also have pages with own cocktails and cocktails which user was added to Favorites.",
+    desc: "Application for add and create Cocktails' or Drinks' Recipes. User should login first by confirming email. Then he can change name, avatar or dark/light theme (by default dark). On home page shows the latest drinks from each categories of drinks, on page Drinks user can find some drink or cocktail by using filters. On page Add drink user can create his own cocktail or drink, and look on 4 most popular drinks which all users added to Favorites.",
   },
   {
     id: 2,

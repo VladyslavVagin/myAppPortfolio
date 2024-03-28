@@ -8,6 +8,11 @@
   align-items: center;
   gap: 50px;
 
+  @include desktop {
+    width: 100%;
+    padding: 40px;
+  }
+
   @include tablet {
     width: 100%;
     padding: 10px;
