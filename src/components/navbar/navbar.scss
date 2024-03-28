@@ -16,6 +16,11 @@
             padding: 20px;
         }
 
+        @include tablet {
+            padding: 20px 20px 20px 86px;
+        }
+
+
         span {
             font-weight: bold;
 

@@ -31,6 +31,11 @@
       background-size: contain;
       background-repeat: no-repeat;
     }
+
+    @include tablet {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
   }
 
   .planets {
@@ -43,6 +48,11 @@
     position: absolute;
 
     @include mobile {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    @include tablet {
       background-size: contain;
       background-repeat: no-repeat;
     }

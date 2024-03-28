@@ -20,6 +20,12 @@
       flex-direction: column;
     }
 
+    @include tablet {
+      align-self: center;
+      text-align: center;
+      flex-direction: column;
+    }
+
     p {
       font-weight: 200;
       font-size: 20px;
@@ -35,6 +41,11 @@
       @include mobile {
         width: 300px;
       }
+
+      
+      @include tablet {
+        width: 300px;
+      }
     }
   }
 
@@ -45,6 +56,10 @@
     align-items: center;
 
     @include mobile {
+      width: 100%;
+    }
+
+    @include tablet {
       width: 100%;
     }
 

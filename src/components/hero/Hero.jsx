@@ -1,4 +1,4 @@
-import React from "react";
+// @ts-nocheck
 import { motion } from "framer-motion";
 import "./hero.scss";
 
@@ -47,7 +47,7 @@ const Hero = () => {
           animate="animate"
         >
           <motion.h2 variants={textVariants}>VLADYSLAV VAGIN</motion.h2>
-          <motion.h1 variants={textVariants}>Fullstack Web Developer</motion.h1>
+          <motion.h1 variants={textVariants}>Frontend Web Developer</motion.h1>
           <motion.div className="buttons" variants={textVariants}>
             <motion.button type="button" variants={textVariants}>
               See the Latest Works
