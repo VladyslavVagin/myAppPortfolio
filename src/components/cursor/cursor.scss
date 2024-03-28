@@ -8,11 +8,11 @@
     position: fixed;
     z-index: 999;
 
-    @include mobile {
+    @include tablet {
         display: none;
     }
 
-    @include tablet {
+    @include mobile {
         display: none;
     }
 }

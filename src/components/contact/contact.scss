@@ -8,6 +8,12 @@
   align-items: center;
   gap: 50px;
 
+  @include tablet {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+
   @include mobile {
     width: 100%;
     padding: 10px;
@@ -31,6 +37,10 @@
       font-size: 100px;
       line-height: 88px;
 
+      @include tablet {
+        font-size: 66px;
+      }
+
       @include mobile {
         font-size: 36px;
       }
@@ -38,6 +48,10 @@
 
     span {
       font-weight: 300;
+
+      @include tablet {
+        font-size: 24px;
+      }
     }
   }
 
@@ -45,6 +59,11 @@
     flex: 1;
     position: relative;
     
+    
+    @include tablet {
+      width: 100%;
+      padding: 50px;
+    }
     
     @include mobile {
       width: 100%;
@@ -59,6 +78,11 @@
       z-index: -1;
 
       svg {
+        @include tablet {
+          width: 400px;
+          height: 400px;
+        }
+
         @include mobile {
           width: 200px;
           height: 200px;

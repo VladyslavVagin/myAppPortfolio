@@ -27,12 +27,12 @@
     position: absolute;
     z-index: 3;
 
-    @include mobile {
+    @include tablet {
       background-size: contain;
       background-repeat: no-repeat;
     }
 
-    @include tablet {
+    @include mobile {
       background-size: contain;
       background-repeat: no-repeat;
     }
@@ -47,12 +47,12 @@
     z-index: 2;
     position: absolute;
 
-    @include mobile {
+    @include tablet {
       background-size: contain;
       background-repeat: no-repeat;
     }
 
-    @include tablet {
+    @include mobile {
       background-size: contain;
       background-repeat: no-repeat;
     }

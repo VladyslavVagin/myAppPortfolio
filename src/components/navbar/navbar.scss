@@ -10,16 +10,12 @@
         align-items: center;
         justify-content: space-between;
         height: 100%;
+        padding: 20px 20px 20px 86px;
 
         @include mobile {
             justify-content: flex-end;
             padding: 20px;
         }
-
-        @include tablet {
-            padding: 20px 20px 20px 86px;
-        }
-
 
         span {
             font-weight: bold;
@@ -34,8 +30,28 @@
             gap: 20px;
 
             img {
-                width: 18px;
-                height: 18px;
+                width: 46px;
+                height: 46px;
+                transition: all 400ms ease;
+                &:hover,
+                &:focus {
+                    transform: scale(1.4);
+                }
+
+                @include desktop {
+                    width: 38px;
+                    height: 38px;
+                }
+
+                @include tablet {
+                    width: 26px;
+                    height: 26px;
+                }
+
+                @include mobile {
+                    width: 18px;
+                    height: 18px;
+                }
             }
         }
     }

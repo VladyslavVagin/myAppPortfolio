@@ -16,6 +16,7 @@
     width: 400px;
     z-index: 10;
     background-color: white;
+    z-index: 40;
 
     @include mobile {
       width: 200px;
@@ -51,6 +52,6 @@
     background-color: #fff;
     border: none;
     cursor: pointer;
-    z-index: 10;
+    z-index: 41;
   }
 }

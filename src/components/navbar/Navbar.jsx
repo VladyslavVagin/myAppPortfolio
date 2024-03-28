@@ -1,4 +1,4 @@
-import React from "react";
+// @ts-nocheck
 import { motion } from "framer-motion";
 import "./navbar.scss";
 import Sidebar from "../sidebar/Sidebar";
@@ -6,7 +6,7 @@ import Sidebar from "../sidebar/Sidebar";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <Sidebar/>
+      <Sidebar />
       <div className="wrapper">
         <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
@@ -16,17 +16,19 @@ const Navbar = () => {
           VladVagin Dev
         </motion.span>
         <div className="social">
-          <a href="#" target="_blank">
-            <img src="/facebook.png" alt="Go to Facebook Page" />
+          <a
+            href="https://www.linkedin.com/in/vladyslav-vagin-devfrontend?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BIGv2PpvLRqGYiL%2FJEE2REA%3D%3D"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="/LinkedIn.png" alt="Go to LinkedIn Page" />
           </a>
-          <a href="#" target="_blank">
-            <img src="/instagram.png" alt="Go to Instagram Page" />
-          </a>
-          <a href="#" target="_blank">
-            <img src="/youtube.png" alt="Go to Youtube Page" />
-          </a>
-          <a href="#" target="_blank">
-            <img src="/dribbble.png" alt="Go to Dribbble Page" />
+          <a
+            href="https://github.com/VladyslavVagin"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="/github-icon.png" alt="Go to GitHub Page" />
           </a>
         </div>
       </div>

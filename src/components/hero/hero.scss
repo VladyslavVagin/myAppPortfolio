@@ -5,6 +5,7 @@
   position: relative;
   overflow: hidden;
   background: linear-gradient(180deg, #0c0c1d, #111132);
+  padding: 40px;
 
   .wrapper {
     max-width: 1366px;
@@ -19,7 +20,7 @@
       justify-content: center;
       gap: 40px;
 
-      @include mobile {
+      @include tablet {
         height: 50%;
         width: 100%;
         gap: 20px;
@@ -27,7 +28,7 @@
         text-align: center;
       }
 
-      @include tablet {
+      @include mobile {
         height: 50%;
         width: 100%;
         gap: 20px;
@@ -39,22 +40,28 @@
         font-size: 30px;
         color: rebeccapurple;
         letter-spacing: 10px;
+
+        @include mobile {
+          font-size: 20px;
+        }
       }
 
       h1 {
-        font-size: 88px;
-
-        @include mobile {
-          font-size: 36px;
-        }
+        font-size: 52px;
 
         @include tablet {
           font-size: 66px;
         }
+
+        @include mobile {
+          font-size: 24px;
+        }
       }
 
       .buttons {
-        button {
+        position: relative;
+        z-index: 20;
+        a {
           padding: 20px;
           border: 1px solid white;
           border-radius: 10px;
@@ -63,6 +70,18 @@
           margin-right: 20px;
           cursor: pointer;
           font-weight: 300;
+          transition: all 400ms ease;
+          &:hover,
+          &:focus {
+            background-color: white;
+            color: black;
+          }
+
+          @include mobile {
+            padding: 8px;
+            font-size: 14px;
+            margin-right: 10px;
+          }
         }
       }
 
@@ -73,17 +92,18 @@
   }
 
   .imageContainer {
-    height: 100%;
     position: absolute;
     top: 0;
     right: 0;
     z-index: 20;
 
-    @include mobile {
-      height: 50%;
+    @include desktop {
+      height: 100%;
       width: auto;
       top: unset;
-      bottom: 0;
+      right: 0;
+      bottom: unset;
+      top: 0;
     }
 
     @include tablet {
@@ -91,6 +111,13 @@
       width: auto;
       top: unset;
       right: 20%;
+      bottom: 0;
+    }
+
+    @include mobile {
+      height: 50%;
+      width: auto;
+      top: unset;
       bottom: 0;
     }
 
